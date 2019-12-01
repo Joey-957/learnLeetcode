@@ -81,6 +81,7 @@ public class Plindrome_234 {
 
     /**
      * 版本二：通过使用快慢指针，不用知道节点的个数节能得到中点指针
+     * 反转后半部分链表，与前半部分链表比较
      * @param head
      * @return
      */
@@ -88,7 +89,33 @@ public class Plindrome_234 {
         if (head==null||head.next==null){
             return true;
         }
-
+        ListNode low = head;
+        ListNode fast = head;
+        ListNode flag_after;
+        ListNode falg_pre;
+        ListNode flag;
+        while(fast!=null&&fast.next!=null){
+            low = low.next;
+            fast = fast.next.next;
+        }
+        flag_after = low;
+        falg_pre = low;
+        flag = null;
+        while(flag_after!=null){
+            flag_after = flag_after.next;
+            falg_pre.next = flag;
+            flag = falg_pre;
+            falg_pre = flag_after;
+        }
+        low = flag;
+        fast = head;
+        while(low!=null){
+            if(low.val!=fast.val){
+                return false;
+            }
+            low = low.next;
+            fast = fast.next;
+        }
         return true;
     }
 
