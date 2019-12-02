@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="82f974e0-6663-4ab0-b016-99b255c2139f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/List/Plindrome_234.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/List/Plindrome_234.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,7 +43,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/List/Plindrome_234.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="172">
@@ -53,12 +52,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tips.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="56">
-                <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+                <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
               </first_editor>
               <second_editor />
             </state>
@@ -84,8 +83,8 @@
         <option value="$PROJECT_DIR$/src/List/ListNode.java" />
         <option value="$PROJECT_DIR$/src/List/InvertedLIst.java" />
         <option value="$PROJECT_DIR$/src/List/InvertedLIst_206.java" />
-        <option value="$PROJECT_DIR$/tips.md" />
         <option value="$PROJECT_DIR$/src/List/Plindrome_234.java" />
+        <option value="$PROJECT_DIR$/tips.md" />
       </list>
     </option>
   </component>
@@ -225,16 +224,15 @@
       <updated>1574838535024</updated>
       <workItem from="1574838537961" duration="25167000" />
       <workItem from="1574991356149" duration="11785000" />
-      <workItem from="1575163240621" duration="3679000" />
+      <workItem from="1575163240621" duration="4167000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40631000" />
+    <option name="totallyTimeSpent" value="41119000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="0" width="1548" height="830" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21342282" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -295,20 +293,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tips.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="56">
-            <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/List/Plindrome_234.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
           <caret line="83" column="25" selection-start-line="83" selection-start-column="25" selection-end-line="83" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tips.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="56">
+            <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
