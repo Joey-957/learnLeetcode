@@ -45,7 +45,7 @@ public class TwoSum_1 {
     }
 
     /**
-     * 方法二、哈希表（空间换时间）
+     * 方法二、哈希表（空间换时间）,遍历两次数组
      * @param nums
      * @param target
      * @return
@@ -61,6 +61,24 @@ public class TwoSum_1 {
             if(map.containsKey(end)&&map.get(end)!=j){
                 return new int[]{j,map.get(end)};
             }
+        }
+        throw new IllegalArgumentException("no solution");
+    }
+
+    /**
+     * 方法三、哈希表（空间换时间）,遍历一次数组
+     * @param nums
+     * @param target
+     * @return
+     */
+    public int[] twoSum_3(int[] nums,int target){
+        Map<Integer,Integer> map = new HashMap<Integer,Integer>();
+        for (int i = 0;i<nums.length;i++){
+            int component = target - nums[i];
+            if (map.containsKey(component)){
+                return new int[]{map.get(component),i};
+            }
+            map.put(nums[i],i);
         }
         throw new IllegalArgumentException("no solution");
     }

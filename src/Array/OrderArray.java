@@ -14,10 +14,26 @@ public class OrderArray {
     }
 
     //(二分查找)查找一个数据项，成功返回数组下标，否则返回-1
-    public int select(String elem) {
+    public int select(int elem,int[] array) {
         int index = -1;
         int low = 0;
         int high = array.length - 1;
+
+        while(low!=high){
+            int component = (low+high)/2;
+            if (array[component]==elem){
+                index = component;
+                break;
+            }
+            if(array[component]<elem){
+                low = component+1;
+            }else{
+                high = component-1;
+            }
+        }
+        if (array[low]==elem){
+            index = low;
+        }
         return index;
     }
 
@@ -30,11 +46,18 @@ public class OrderArray {
                 break;
             }
         }
-        for (;index<=array.length-1;index++){
-
+        for (int k = array.length-1;index<k;k++){
+            array[k+1] = array[k];
         }
+        array[index] = elem;
+    }
 
+    public static void main(String[] argus){
 
+        OrderArray orderArray = new OrderArray(4);
+        int[] array = new int[]{1, 2, 3, 4, 5, 6, 7};
+        int targt = 4;
+        System.out.println(orderArray.select(targt,array));
 
 
     }
