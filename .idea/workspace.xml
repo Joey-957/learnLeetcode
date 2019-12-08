@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82f974e0-6663-4ab0-b016-99b255c2139f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Stack/ValiadParents_20.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnLeecode/Sort/Sort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learnLeecode/Sort/Sort.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Sort/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sort/Sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sort/Stack/ValiadParents.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Sort/Sort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="91" selection-start-line="91" selection-end-line="91" />
+            <state relative-caret-position="143">
+              <caret line="100" column="31" lean-forward="true" selection-start-line="100" selection-start-column="31" selection-end-line="100" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -60,6 +63,9 @@
         <option value="$PROJECT_DIR$/src/List/DeleteListNode.java" />
         <option value="$PROJECT_DIR$/list_tips.md" />
         <option value="$PROJECT_DIR$/src/Array/RemoveElem_27.java" />
+        <option value="$PROJECT_DIR$/src/Sort/Stack/ValiadParents.java" />
+        <option value="$PROJECT_DIR$/src/Stack/ValiadParents.java" />
+        <option value="$PROJECT_DIR$/src/Stack/ValiadParents_20.java" />
         <option value="$PROJECT_DIR$/src/Sort/Sort.java" />
       </list>
     </option>
@@ -70,11 +76,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
-    <option name="y" value="-10" />
     <option name="width" value="1939" />
-    <option name="height" value="1049" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -82,6 +87,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -98,14 +105,12 @@
               <item name="learnLeecode" type="b2602c69:ProjectViewProjectNode" />
               <item name="learnLeecode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Sort" type="462c0819:PsiDirectoryNode" />
+              <item name="Stack" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -134,19 +139,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Plindrome_234" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="List.Plindrome_234" />
-      <module name="learnLeecode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="List.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,13 +185,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ValiadParents" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stack.ValiadParents" />
+      <module name="learnLeecode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Sort" />
+        <item itemvalue="Application.ValiadParents" />
         <item itemvalue="Application.RemoveElem_27" />
         <item itemvalue="Application.RemoveDuplicates_26" />
         <item itemvalue="Application.OrderArray" />
-        <item itemvalue="Application.Plindrome_234" />
       </list>
     </recent_temporary>
   </component>
@@ -217,17 +222,20 @@
       <workItem from="1574991356149" duration="11785000" />
       <workItem from="1575163240621" duration="4167000" />
       <workItem from="1575268936253" duration="52299000" />
-      <workItem from="1575510205902" duration="18712000" />
+      <workItem from="1575510205902" duration="18820000" />
+      <workItem from="1575595698930" duration="8864000" />
+      <workItem from="1575783052962" duration="5167000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112130000" />
+    <option name="totallyTimeSpent" value="126269000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18230563" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18766756" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -236,8 +244,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.18271954" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.25070822" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21671388" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3186969" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -260,6 +268,18 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sort/Sort.java</url>
+          <line>114</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/learnLeecode.iml">
@@ -376,10 +396,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Queue.java" />
+    <entry file="file://$PROJECT_DIR$/src/Stack/ValiadParents_20.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+          <folding>
+            <element signature="e#230#241#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Sort/Sort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="91" selection-start-line="91" selection-end-line="91" />
+        <state relative-caret-position="143">
+          <caret line="100" column="31" lean-forward="true" selection-start-line="100" selection-start-column="31" selection-end-line="100" selection-end-column="31" />
         </state>
       </provider>
     </entry>

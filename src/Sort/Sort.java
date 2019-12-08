@@ -85,8 +85,26 @@ public class Sort {
         return 0;
     }
     //xvyaozaixieyibian
-    private void shellSort_my(int[] array){
-
+    private int  shellSort_my(int[] array){
+        int length = array.length;
+        if(length==0){
+            return 0;
+        }
+        int current;
+        int gap = length/2;
+        while(gap>0){
+            for(int i = gap;i<length;i++){
+                current = array[i];
+                int preindex = i-gap;
+                while(preindex>=0&&array[preindex]>current){
+                    array[preindex+gap] = array[preindex];
+                    preindex =  preindex-gap;
+                }
+                array[preindex+gap] = current;
+            }
+        gap = gap/2;
+        }
+        return 0;
     }
 
 
@@ -94,11 +112,11 @@ public class Sort {
 
     public static void main(String[] argus){
         Sort sort = new Sort();
-        int[] test = new int[]{9,9,9};
+        int[] test = new int[]{7,6,5,4,3,2,1};
         //sort.BubbleSort(test);
         //sort.selectionSort(test);
         //sort.insertionSort(test);
-        sort.shellSort(test);
+        sort.shellSort_my(test);
 
         for(int i = 0;i<test.length;i++){
             System.out.println(test[i]);
