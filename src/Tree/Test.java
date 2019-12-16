@@ -1,7 +1,6 @@
 package Tree;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 /**
  * 测试类
@@ -41,25 +40,30 @@ public class Test {
 //        System.out.println(min.getData());
 //        min = one.MaxNum(root);
 //        System.out.println(min.getData());
-        TreeNode a = new TreeNode(1);
-        TreeNode b = new TreeNode(2);
-        TreeNode c = new TreeNode(2);
-        //a.setLeftTreeNode(b);
-        //b.setRightTreeNode(c);
+        TreeNode_ a = new TreeNode_(1);
+        TreeNode_ b = new TreeNode_(2);
+        TreeNode_ c = new TreeNode_(3);
+        a.setLeft(b);
+        a.setRight(c);
 
-        TreeNode d = new TreeNode(1);
-        TreeNode e = new TreeNode(2);
-        TreeNode f = new TreeNode(2);
-        d.setRightTreeNode(f);
-        d.setLeftTreeNode(e);
-        MiniDepthOfBinary_111 miniDepthOfBinary_111 = new MiniDepthOfBinary_111();
-        int depth = miniDepthOfBinary_111.levelSearch(d);
+        TreeNode_ d = new TreeNode_(4);
+        TreeNode_ e = new TreeNode_(5);
+        TreeNode_ f = new TreeNode_(6);
+        c.setLeft(e);
+        c.setRight(f);
+        b.setLeft(d);
 
-        System.out.println(depth);
-        System.out.println("-----");
-        int test_1 = Integer.MIN_VALUE;
-        int test_2 = Integer.MAX_VALUE;
-        System.out.println(test_1+"  "+test_2);
+        //BinaryTreeLevelSearchII_107 binaryTreeLevelSearchII_107 = new BinaryTreeLevelSearchII_107();
+        //List list = binaryTreeLevelSearchII_107.levelOrderBottom_2(a);
+
+        BinaryTreeZigzagLevelOrder_103 binaryTreeZigzagLevelOrder_103 = new BinaryTreeZigzagLevelOrder_103();
+        List<List<Integer>> list = binaryTreeZigzagLevelOrder_103.zigzagLevelOrder(a);
+        System.out.println(list);
+
+
+
+
+
 
     }
 }
