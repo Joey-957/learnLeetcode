@@ -1,6 +1,7 @@
 package Tree;
 
 import java.util.*;
+import List.*;
 
 /**
  * 测试类
@@ -40,29 +41,43 @@ public class Test {
 //        System.out.println(min.getData());
 //        min = one.MaxNum(root);
 //        System.out.println(min.getData());
+
         TreeNode_ a = new TreeNode_(1);
         TreeNode_ b = new TreeNode_(2);
         TreeNode_ c = new TreeNode_(3);
-        a.setLeft(b);
-        a.setRight(c);
+        a.left = b;
+        a.right = c;
 
         TreeNode_ d = new TreeNode_(4);
-        TreeNode_ e = new TreeNode_(5);
+        TreeNode_ e = new TreeNode_(3);
         TreeNode_ f = new TreeNode_(6);
-        c.setLeft(e);
-        c.setRight(f);
-        b.setLeft(d);
+        TreeNode_ G = new TreeNode_(0);
+        c.left = e;
+        c.right = f;
+        b.left = G;
+        b.right = d;
 
-        //BinaryTreeLevelSearchII_107 binaryTreeLevelSearchII_107 = new BinaryTreeLevelSearchII_107();
-        //List list = binaryTreeLevelSearchII_107.levelOrderBottom_2(a);
+        //测试，有序链表转化二叉排序树
+//        ListNode A = new ListNode(1);
+//        ListNode B = new ListNode(3);
+//        ListNode C = new ListNode(5);
+//        ListNode D = new ListNode(7);
+//        ListNode E = new ListNode(9);
+//        A.next = B;
+//        B.next = C;
+//        C.next = D;
+//        D.next = E;
+//        SortedListToBST_109 qq = new SortedListToBST_109();
+//        TreeNode_ Root = qq.sortedListToBST2(A);
 
-        BinaryTreeZigzagLevelOrder_103 binaryTreeZigzagLevelOrder_103 = new BinaryTreeZigzagLevelOrder_103();
-        List<List<Integer>> list = binaryTreeZigzagLevelOrder_103.zigzagLevelOrder(a);
-        System.out.println(list);
-
-
-
-
+//        BTInorderTraversal_94 btInorderTraversal_94 = new BTInorderTraversal_94();
+//        List list  = btInorderTraversal_94.postorderTraversal(a);
+//        System.out.println(list);
+//        List<Integer> list4 = new ArrayList<>();
+//        list4.add(1);
+//        list4.add(2);
+//        Integer q = list4.get(0);
+//        list4.size();
 
 
     }

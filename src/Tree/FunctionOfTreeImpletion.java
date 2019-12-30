@@ -1,13 +1,15 @@
 package Tree;
 
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Queue;
+import java.util.Stack;
 
 /**
  * 二叉排序树即二叉查找树，二叉搜索树的增删查方法的具体实现
  */
 public class FunctionOfTreeImpletion implements FunctionOfTree{
-    //实现一、递归实现
+    //实现一、递归实现二叉排序树的查询
 //    @Override
 //    public TreeNode findTreeNode(int key,TreeNode root) {
 //        TreeNode current = root;
@@ -23,7 +25,7 @@ public class FunctionOfTreeImpletion implements FunctionOfTree{
 //        return null;
 //    }
 
-    //实现方式二、采用循环方式，不是用递归
+    //实现方式二、采用循环方式实现二叉排序树的查询，不是用递归
     @Override
     public TreeNode findTreeNode(int key, TreeNode root) {
         TreeNode current = root;
@@ -176,7 +178,79 @@ public class FunctionOfTreeImpletion implements FunctionOfTree{
             System.out.println(root.getData());
         }
     }
+//--------------------------------------------------------------------------
+    /**
+     * 非递归前序遍历，根-》左-》右
+     */
+    public List<Integer> preOrder(TreeNode_ root){
+        List<Integer> list = new LinkedList<Integer>();
+        Stack<TreeNode_> stack = new Stack<>();
+        if (root==null){
+            return list;
+        }
+        TreeNode_ current = root;
+        while(current!=null||!stack.empty()){
+            while(current!=null) {
+                list.add(current.val);
+                stack.push(current);
+                current = current.left;
+            }
+            current = stack.pop();
+            current = current.right;
+        }
+        return list;
+    }
 
+    /**
+     * 非递归后序遍历，左节点-》右节点-》根节点
+     * 引入节点lastNode
+     */
+    public List<Integer> postOrder(TreeNode_ root){
+        List<Integer> list = new LinkedList<>();
+        Stack<TreeNode_> stack = new Stack<>();
+        TreeNode_ current = root;
+        TreeNode_ lastNode = null;
+        while(current!=null||!stack.empty()){
+            while(current!=null){
+                stack.push(current);
+                current = current.left;
+            }
+            TreeNode_ popNode = stack.pop();
+            if(popNode.right==null||popNode.right==lastNode){
+                list.add(popNode.val);
+                lastNode = popNode;
+                //current = stack.pop().right;
+            }else{
+                stack.push(popNode);
+                current = popNode.right;
+            }
+        }
+        return list;
+    }
+
+
+    public List<Integer> postorderTraversal(TreeNode_ root) {
+        List<Integer> list = new LinkedList<>();
+        Stack<TreeNode_> stack = new Stack<>();
+        TreeNode_ current = root;
+        TreeNode_ lastNode = null;
+        while (current!=null||!stack.empty()){
+            while (current!=null){
+                stack.push(current);
+                current = current.left;
+            }
+            TreeNode_ popNode = stack.pop();
+            if (popNode.right == null||popNode.right==lastNode){
+                list.add(popNode.val);
+                lastNode  = popNode;
+            }else{
+                stack.push(popNode);
+                current = popNode.right;//关键 别忘了  error 写错过current = current.right!!!
+            }
+        }
+        return  list;
+    }
+//----------------------------------------------------------------------------
     /**
      * 查找最大值最小值
      * 最大值：没有左节点的节点
