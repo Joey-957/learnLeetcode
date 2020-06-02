@@ -9,18 +9,19 @@ import java.util.Stack;
  */
 public class NTPreorderTrav_589 {
     //recursion
-    public List<Integer> NPreRecursion(Node root){
+    public List<Integer> NPreRecursion(Node root) {
         List<Integer> list = new LinkedList<>();
-        helper(root,list);
+        helper(root, list);
         return list;
     }
-    private void helper(Node root,List<Integer> list){
-        if (root==null){
+
+    private void helper(Node root, List<Integer> list) {
+        if (root == null) {
             return;
         }
         list.add(root.val);
-        for(int i = 0;i<root.children.size();i++){
-            helper(root.children.get(i),list);
+        for (int i = 0; i < root.children.size(); i++) {
+            helper(root.children.get(i), list);
         }
     }
 
@@ -31,15 +32,15 @@ public class NTPreorderTrav_589 {
         List<Integer> list = new LinkedList<>();
         Stack<Node> stack = new Stack<Node>();
         Node current = root;
-        if (root==null){
+        if (root == null) {
             return list;
         }
         stack.push(current);
-        while(!stack.empty()){
+        while (!stack.empty()) {
 
             current = stack.pop();
             list.add(current.val);
-            if (root.children.size()!=0){
+            if (root.children.size() != 0) {
                 int index = current.children.size() - 1;
                 for (int i = index; i >= 0; i--) {
                     stack.push(current.children.get(i));

@@ -14,24 +14,24 @@ public class OrderArray {
     }
 
     //(二分查找)查找一个数据项，成功返回数组下标，否则返回-1
-    public int select(int elem,int[] array) {
+    public int select(int elem, int[] array) {
         int index = -1;
         int low = 0;
         int high = array.length - 1;
 
-        while(low!=high){
-            int component = (low+high)/2;
-            if (array[component]==elem){
+        while (low != high) {
+            int component = (low + high) / 2;
+            if (array[component] == elem) {
                 index = component;
                 break;
             }
-            if(array[component]<elem){
-                low = component+1;
-            }else{
-                high = component-1;
+            if (array[component] < elem) {
+                low = component + 1;
+            } else {
+                high = component - 1;
             }
         }
-        if (array[low]==elem){
+        if (array[low] == elem) {
             index = low;
         }
         return index;
@@ -41,23 +41,23 @@ public class OrderArray {
     //insert
     public void insert(int elem) {
         int index = 0;
-        for (;index <= array.length - 1; index++) {
+        for (; index <= array.length - 1; index++) {
             if (elem < array[index]) {
                 break;
             }
         }
-        for (int k = array.length-1;index<k;k++){
-            array[k+1] = array[k];
+        for (int k = array.length - 1; index < k; k++) {
+            array[k + 1] = array[k];
         }
         array[index] = elem;
     }
 
-    public static void main(String[] argus){
+    public static void main(String[] argus) {
 
         OrderArray orderArray = new OrderArray(4);
         int[] array = new int[]{1, 2, 3, 4, 5, 6, 7};
         int targt = 4;
-        System.out.println(orderArray.select(targt,array));
+        System.out.println(orderArray.select(targt, array));
 
 
     }

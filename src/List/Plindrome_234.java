@@ -39,11 +39,12 @@ public class Plindrome_234 {
 
     /**
      * 版本一：理解出错了
+     *
      * @param head
      * @return
      */
     public boolean isPalindrome(ListNode head) {
-        if (head==null){
+        if (head == null) {
             return false;
         }
         //遍历链表，得到链表结点个数
@@ -53,13 +54,13 @@ public class Plindrome_234 {
             amount++;
             flag = flag.next;
         }
-        if  (amount==1){
+        if (amount == 1) {
             return true;
         }
-        if (amount==2){
-            if(head.val==head.next.val){
+        if (amount == 2) {
+            if (head.val == head.next.val) {
                 return true;
-            }else{
+            } else {
                 return false;
             }
         }
@@ -82,11 +83,12 @@ public class Plindrome_234 {
     /**
      * 版本二：通过使用快慢指针，不用知道节点的个数节能得到中点指针
      * 反转后半部分链表，与前半部分链表比较
+     *
      * @param head
      * @return
      */
     public boolean isPalindrome_2(ListNode head) {
-        if (head==null||head.next==null){
+        if (head == null || head.next == null) {
             return true;
         }
         ListNode low = head;
@@ -94,14 +96,14 @@ public class Plindrome_234 {
         ListNode flag_after;
         ListNode falg_pre;
         ListNode flag;
-        while(fast!=null&&fast.next!=null){
+        while (fast != null && fast.next != null) {
             low = low.next;
             fast = fast.next.next;
         }
         flag_after = low;
         falg_pre = low;
         flag = null;
-        while(flag_after!=null){
+        while (flag_after != null) {
             flag_after = flag_after.next;
             falg_pre.next = flag;
             flag = falg_pre;
@@ -109,8 +111,8 @@ public class Plindrome_234 {
         }
         low = flag;
         fast = head;
-        while(low!=null){
-            if(low.val!=fast.val){
+        while (low != null) {
+            if (low.val != fast.val) {
                 return false;
             }
             low = low.next;
@@ -119,11 +121,11 @@ public class Plindrome_234 {
         return true;
     }
 
-    public static void main(String[] argus){
+    public static void main(String[] argus) {
         Plindrome_234 plindrome_234 = new Plindrome_234();
         ListNode head = new ListNode(1);
-        plindrome_234.headInsertion(head,2);
-        plindrome_234.headInsertion(head,2);
+        plindrome_234.headInsertion(head, 2);
+        plindrome_234.headInsertion(head, 2);
         Boolean t = plindrome_234.isPalindrome(head);
         System.out.println(t);
     }

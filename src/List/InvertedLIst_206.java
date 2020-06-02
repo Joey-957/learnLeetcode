@@ -71,8 +71,6 @@ public class InvertedLIst_206 {
 
     /**
      * 方法三、递归
-     *
-     *
      */
     private ListNode reverseList(ListNode head) {
         if (head == null || head.next == null) {

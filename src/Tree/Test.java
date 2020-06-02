@@ -1,6 +1,7 @@
 package Tree;
 
 import java.util.*;
+
 import List.*;
 
 /**
@@ -8,7 +9,7 @@ import List.*;
  */
 public class Test {
     //生成测试树
-    private static TreeNode returnRoot(){
+    private static TreeNode returnRoot() {
         TreeNode A = new TreeNode(4);
         TreeNode B = new TreeNode(2);
         TreeNode C = new TreeNode(6);

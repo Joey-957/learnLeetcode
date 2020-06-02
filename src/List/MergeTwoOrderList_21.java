@@ -6,7 +6,7 @@ package List;
 public class MergeTwoOrderList_21 {
 
     //测试用例
-    public ListNode returnList1(){
+    public ListNode returnList1() {
         ListNode node1 = new ListNode(1);
         ListNode node2 = new ListNode(3);
         ListNode node3 = new ListNode(5);
@@ -16,7 +16,8 @@ public class MergeTwoOrderList_21 {
         node3.next = node4;
         return node1;
     }
-    public ListNode returnList2(){
+
+    public ListNode returnList2() {
         ListNode node_a = new ListNode(1);
         ListNode node_b = new ListNode(2);
         ListNode node_c = new ListNode(5);
@@ -29,40 +30,40 @@ public class MergeTwoOrderList_21 {
         return node_a;
     }
 
-    public ListNode mergeTwoLists(ListNode l1, ListNode l2){
+    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode l3 = new ListNode(0);
         ListNode flag = l3;
 
-        while(l1!=null&&l2!=null){
-            if(l1.val<=l2.val){
+        while (l1 != null && l2 != null) {
+            if (l1.val <= l2.val) {
                 flag.next = l1;
                 flag = l1;
                 l1 = l1.next;
-            }else{
+            } else {
                 flag.next = l2;
                 flag = l2;
                 l2 = l2.next;
             }
         }
-        if (l1==null){
+        if (l1 == null) {
             flag.next = l2;
         }
-        if (l2==null){
+        if (l2 == null) {
             flag.next = l1;
         }
         l3 = l3.next;
         return l3;
     }
 
-    public static void main(String[] argus){
+    public static void main(String[] argus) {
         MergeTwoOrderList_21 one = new MergeTwoOrderList_21();
 
         ListNode listNode1 = one.returnList1();
         ListNode listNode2 = one.returnList2();
         //one.mergeTwoLists(listNode1,listNode2);
-        ListNode listNode110 = one.mergeTwoLists(listNode1,listNode2);
+        ListNode listNode110 = one.mergeTwoLists(listNode1, listNode2);
         ListNode flag = listNode110;
-        while(flag!=null){
+        while (flag != null) {
             System.out.println(flag.val);
             flag = flag.next;
         }

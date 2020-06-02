@@ -6,9 +6,11 @@ package Tree;
 
 public interface FunctionOfTree {
     //查找结点
-    public TreeNode findTreeNode(int key,TreeNode root);
+    public TreeNode findTreeNode(int key, TreeNode root);
+
     //插入节点
-    public boolean insertTreeNode(int key,TreeNode root);
+    public boolean insertTreeNode(int key, TreeNode root);
+
     //删除节点
-    public boolean delete(int key,TreeNode root);
+    public boolean delete(int key, TreeNode root);
 }

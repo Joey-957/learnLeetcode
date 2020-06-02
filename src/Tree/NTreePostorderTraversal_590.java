@@ -35,17 +35,17 @@ public class NTreePostorderTraversal_590 {
         LinkedList<Integer> list = new LinkedList<>();
         Stack<Node> stack = new Stack<Node>();
         Node current = root;
-        if (root==null){
+        if (root == null) {
             return list;
         }
         stack.push(current);
-        while(!stack.empty()){
+        while (!stack.empty()) {
             current = stack.pop();
             list.addFirst(current.val);
             //stack.push(current);
-            if (root.children.size()!=0){
+            if (root.children.size() != 0) {
                 //int index = current.children.size() - 1;
-                for (Node node:current.children) {
+                for (Node node : current.children) {
                     stack.push(node);
                 }
             }

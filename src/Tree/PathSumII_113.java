@@ -39,7 +39,7 @@ public class PathSumII_113 {
                 list.add((List<Integer>) queue.clone());
                 queue.pollLast();
                 return list;
-            }else {
+            } else {
                 queue.pollLast();
                 return list;
             }

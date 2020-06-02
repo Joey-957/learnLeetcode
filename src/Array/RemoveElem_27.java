@@ -58,9 +58,9 @@ public class RemoveElem_27 {
 //        if (nums.length == 1 && nums[0] == val) {
 //            return 0;
 //        }
-        int i =0,j=0;
-        while(j<nums.length){
-            if(nums[j]!=val){
+        int i = 0, j = 0;
+        while (j < nums.length) {
+            if (nums[j] != val) {
                 nums[i] = nums[j];
                 i++;
             }
@@ -71,9 +71,9 @@ public class RemoveElem_27 {
 
     public static void main(String[] argus) {
         RemoveElem_27 one = new RemoveElem_27();
-        int[] test = new int[]{2,2,3};
+        int[] test = new int[]{2, 2, 3};
         int k = one.removeElement_2(test, 2);
-        System.out.println("k"+k);
+        System.out.println("k" + k);
         for (int i = 0; i < test.length; i++) {
             System.out.println(test[i]);
         }

@@ -8,7 +8,7 @@ import java.util.Stack;
 /**
  * 给定一个二叉树，返回其节点值自底向上的层次遍历。
  * (即按从叶子节点所在层到根节点所在的层，逐层从左向右遍历）
- *
+ * <p>
  * 分析：层次遍历+栈，倒置列表输出
  */
 public class BinaryTreeLevelSearchII_107 {
@@ -19,28 +19,28 @@ public class BinaryTreeLevelSearchII_107 {
         Queue<TreeNode> queue = new LinkedList<>();
         Stack<List> stack = new Stack<>();
         TreeNode current = null;
-        if (root==null){
+        if (root == null) {
             //lists.add(null);
             return lists;
-        }else{
+        } else {
             queue.offer(root);
         }
-        while(!queue.isEmpty()){
+        while (!queue.isEmpty()) {
             int length = queue.size();
             List<Integer> list = new LinkedList<Integer>();
-            for (int i = 0;i<length;i++){
+            for (int i = 0; i < length; i++) {
                 current = queue.poll();
                 list.add(current.getData());
-                if (current.getLeftTreeNode()!=null){
+                if (current.getLeftTreeNode() != null) {
                     queue.offer(current.getLeftTreeNode());
                 }
-                if (current.getRightTreeNode()!=null){
+                if (current.getRightTreeNode() != null) {
                     queue.offer(current.getRightTreeNode());
                 }
             }
             stack.push(list);
         }
-        while(!stack.empty()){
+        while (!stack.empty()) {
             listDemo = stack.pop();
             lists.add(listDemo);
         }
@@ -54,23 +54,23 @@ public class BinaryTreeLevelSearchII_107 {
         Queue<TreeNode> queue = new LinkedList<>();
 
         TreeNode current = null;
-        if (root==null){
+        if (root == null) {
             //lists.add(null);
             return lists;
-        }else{
+        } else {
             queue.offer(root);
         }
-        while(!queue.isEmpty()){
+        while (!queue.isEmpty()) {
             int length = queue.size();
             List<Integer> list = new LinkedList<Integer>();//每次取出一层的所有数据
 
-            for (int i = 0;i<length;i++){
+            for (int i = 0; i < length; i++) {
                 current = queue.poll();
                 list.add(current.getData());
-                if (current.getLeftTreeNode()!=null){
+                if (current.getLeftTreeNode() != null) {
                     queue.offer(current.getLeftTreeNode());
                 }
-                if (current.getRightTreeNode()!=null){
+                if (current.getRightTreeNode() != null) {
                     queue.offer(current.getRightTreeNode());
                 }
             }

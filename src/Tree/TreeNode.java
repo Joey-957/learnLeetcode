@@ -8,9 +8,10 @@ public class TreeNode {
     private TreeNode leftTreeNode;
     private TreeNode rightTreeNode;
 
-    public TreeNode(){}
+    public TreeNode() {
+    }
 
-    public TreeNode(int key){
+    public TreeNode(int key) {
         this.data = key;
     }
 

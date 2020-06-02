@@ -54,7 +54,7 @@ public class BinaryTreeZigzagLevelOrder_103 {
         } else {
             if (level % 2 == 0) {
                 lists.get(level).add(root.val);
-            }else{
+            } else {
                 LinkedList list1 = (LinkedList) lists.get(level);
                 list1.addFirst(root.val);
             }

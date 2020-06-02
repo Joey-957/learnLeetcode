@@ -8,9 +8,9 @@ package Tree;
 public class InvertBinaryTree_226 {
 
     //自己写的
-    public TreeNode recursion(TreeNode root){
+    public TreeNode recursion(TreeNode root) {
         TreeNode temp = null;
-        if(root==null){
+        if (root == null) {
             return null;
         }
         //没必要判断左右两节点是否为空
@@ -34,15 +34,15 @@ public class InvertBinaryTree_226 {
     }
 
     //leecode官方：
-    public TreeNode invertTree(TreeNode root){
-        if (root==null){
+    public TreeNode invertTree(TreeNode root) {
+        if (root == null) {
             return null;
         }
         TreeNode left = invertTree(root.getLeftTreeNode());
         TreeNode right = invertTree(root.getRightTreeNode());
         root.setLeftTreeNode(right);
         root.setRightTreeNode(left);
-        return  root;
+        return root;
     }
 
 }
