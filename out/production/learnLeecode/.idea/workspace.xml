@@ -1,7 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82f974e0-6663-4ab0-b016-99b255c2139f" name="Default Changelist" comment="&quot;7.4&quot;" />
+    <list default="true" id="82f974e0-6663-4ab0-b016-99b255c2139f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Greedy/Greedy_122.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Huisu/EightQueen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/List_new_listnode/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/List_new_listnode/Reverse24.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/List_new_listnode/real_24.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Queue/NchashuLevelSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Queue/queue.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/SameTree_100.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/Tree_654.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/MaxMatrix_84.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/Stack_739.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/jieyvshui_42.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/zhuzhuangtu_84.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/String_242.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SwordOffer/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SwordOffer/Sowld16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SwordOffer/Swold10_I_II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SwordOffer/Swold18.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SwordOffer/Swold27.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SwordOffer/Sword04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SwordOffer/Sword06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SwordOffer/Sword07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SwordOffer/Sword09.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SwordOffer/Sword11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SwordOffer/Sword12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SwordOffer/Sword15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SwordOffer/Sword25.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SwordOffer/Sworl05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SwordOffer/Sworld03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SwordOffer/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SwordOffer/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SwordOffer/sword53.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test_only/Test_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree_new/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree_new/Tree_digui_104.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree_new/tree_110.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree_new/tree_617.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stack.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String&amp;Array.md" beforeDir="false" afterPath="$PROJECT_DIR$/String&amp;Array.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnLeecode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/learnLeecode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list_tips.md" beforeDir="false" afterPath="$PROJECT_DIR$/list_tips.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnLeecode/Array/RemoveDuplicates_26.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learnLeecode/Array/RemoveDuplicates_26.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnLeecode/Array/TwoSum_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learnLeecode/Array/TwoSum_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnLeecode/List/InvertedLIst_206.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learnLeecode/List/InvertedLIst_206.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnLeecode/List/MergeTwoOrderList_21.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learnLeecode/List/MergeTwoOrderList_21.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnLeecode/List/Plindrome_234.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learnLeecode/List/Plindrome_234.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnLeecode/List/RemoveValElemList_203.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learnLeecode/List/RemoveValElemList_203.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnLeecode/List/SortedListToBST_109.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learnLeecode/List/SortedListToBST_109.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnLeecode/Recursion/exercise" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnLeecode/Sort/Sort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learnLeecode/Sort/Sort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnLeecode/Stack/ValiadParents_20.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learnLeecode/Stack/ValiadParents_20.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnLeecode/Tree/BTInorderTraversal_94.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learnLeecode/Tree/BTInorderTraversal_94.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnLeecode/Tree/BinaryTreeLEvelSearch_102.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learnLeecode/Tree/BinaryTreeLEvelSearch_102.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnLeecode/Tree/FunctionOfTreeImpletion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learnLeecode/Tree/FunctionOfTreeImpletion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnLeecode/Tree/HasPathSum_112.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learnLeecode/Tree/HasPathSum_112.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnLeecode/Tree/MaxDepthOfBinaTree_104.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learnLeecode/Tree/MaxDepthOfBinaTree_104.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnLeecode/Tree/NTPreorderTrav_589.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learnLeecode/Tree/NTPreorderTrav_589.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnLeecode/Tree/NTreePostorderTraversal_590.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learnLeecode/Tree/NTreePostorderTraversal_590.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnLeecode/Tree/PathSumIII_437.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learnLeecode/Tree/PathSumIII_437.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnLeecode/Tree/Sametree_100.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learnLeecode/Tree/Sametree_100.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnLeecode/Tree/SortedArraytoBinaSearTree_108.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learnLeecode/Tree/SortedArraytoBinaSearTree_108.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnLeecode/Tree/SymmetricTree_101.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learnLeecode/Tree/SymmetricTree_101.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnLeecode/Tree/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learnLeecode/Tree/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnLeecode/Tree/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learnLeecode/Tree/TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sort/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sort/Sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/ValiadParents_20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/ValiadParents_20.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/BTInorderTraversal_94.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/BTInorderTraversal_94.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/BinaryTreeLEvelSearch_102.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/BinaryTreeLEvelSearch_102.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree_tips.md" beforeDir="false" afterPath="$PROJECT_DIR$/tree_tips.md" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,23 +101,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Sort/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Sort/Merge.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            <state relative-caret-position="1439">
+              <caret line="161" column="20" selection-start-line="161" selection-start-column="20" selection-end-line="161" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -147,11 +208,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-1874" />
-    <option name="y" value="116" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1662" />
+    <option name="y" value="146" />
     <option name="width" value="1397" />
-    <option name="height" value="877" />
+    <option name="height" value="760" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -182,13 +243,6 @@
               <item name="learnLeecode" type="b2602c69:ProjectViewProjectNode" />
               <item name="learnLeecode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Sort" type="462c0819:PsiDirectoryNode" />
-              <item name="QuickSort.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="learnLeecode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnLeecode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="SwordOffer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -202,7 +256,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="E:/tools/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -351,25 +405,18 @@
       <workItem from="1593673854589" duration="10956000" />
       <workItem from="1593688954961" duration="10039000" />
       <workItem from="1593742375871" duration="9502000" />
-      <workItem from="1593834812643" duration="5553000" />
+      <workItem from="1593834812643" duration="1642000" />
     </task>
-    <task id="LOCAL-00001" summary="&quot;7.4&quot;">
-      <created>1593857245828</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1593857245828</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="685563000" />
+    <option name="totallyTimeSpent" value="681652000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1874" y="116" width="1397" height="877" extended-state="0" />
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23186238" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1652452" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -378,16 +425,16 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32739726" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27795526" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23535791" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49836066" weight="0.21475054" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49663424" weight="0.64377" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50336576" side_tool="true" weight="0.64377" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50163937" side_tool="true" weight="0.275" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3253796" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -436,10 +483,6 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="&quot;7.4&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;7.4&quot;" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -453,6 +496,23 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Queue/queue.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="459">
+            <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="164" column="12" selection-start-line="164" selection-start-column="12" selection-end-line="164" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/SwordOffer/Sword09.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1288">
@@ -847,25 +907,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Sort/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Vector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="85" column="13" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sort/Merge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        <state relative-caret-position="1439">
+          <caret line="161" column="20" selection-start-line="161" selection-start-column="20" selection-end-line="161" selection-end-column="20" />
         </state>
       </provider>
     </entry>
