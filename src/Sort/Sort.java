@@ -86,7 +86,7 @@ public class Sort {
         return 0;
     }
 
-    //xvyaozaixieyibian
+    // 再写一遍加深印象
     private int shellSort_my(int[] array) {
         int length = array.length;
         if (length == 0) {
@@ -110,7 +110,6 @@ public class Sort {
     }
 
     //归并排序
-
 
     public static void main(String[] argus) {
         Sort sort = new Sort();

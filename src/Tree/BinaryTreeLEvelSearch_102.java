@@ -19,6 +19,8 @@ public class BinaryTreeLEvelSearch_102 {
         List<List<Integer>> lists = new LinkedList<>();
         TreeNode_ current = null;
         Queue<TreeNode_> queue = new LinkedList<>();
+        queue.isEmpty();
+        new LinkedList<>().isEmpty();
         if (root == null) {
             return lists;
         } else {

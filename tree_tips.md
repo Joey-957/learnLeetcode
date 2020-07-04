@@ -8,12 +8,12 @@
     非递归的中序遍历思想：
     1.当前节点current = root入栈，
     2.循环将current的左子树入栈，current = current.left直到current为空
-    3.弹出栈顶节点，赋值current访问节点的值
+    3.弹出栈顶节点，赋值current访问节点的值,current = current.right
     4.循环123一直到不满足stack为空||current为空指针。
     
     非递归的后序遍历思想：（与先序遍历、中序遍历稍有不同，根节点存在右子树会再次入栈），多一个lastNode；
     1、当前节点current = root入栈。
-    2、循环将current的左子树入栈，current = current.left知道current为空
+    2、循环将current的左子树入栈，current = current.left一直到current为空
     3.弹出栈顶节点赋值给popNode，若popNode节点（popNode.right!=null||popNode.right==lastNode）满足条件4否则5
     4、读取该节点pop，lastNode = pop
     5、节点pop入栈current = popNode.right

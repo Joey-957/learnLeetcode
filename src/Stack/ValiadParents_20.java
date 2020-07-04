@@ -76,7 +76,7 @@ public class ValiadParents_20 {
 
     public static void main(String[] argus) {
         ValiadParents_20 one = new ValiadParents_20();
-        String s = "()[]{}";
+        String s = "()[]{";
         System.out.println(one.isValid(s));
     }
 }

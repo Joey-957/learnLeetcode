@@ -30,7 +30,7 @@ public class BTInorderTraversal_94 {
      * Leetcode官方题解递归，借助辅助函数，无需新建成员变量List
      */
     public List<Integer> leetcode(TreeNode_ root) {
-        List<Integer> list = new LinkedList<>();
+        List<Integer> list = new LinkedList<Integer>();
         helper(root, list);
         return list;
     }
@@ -73,9 +73,11 @@ public class BTInorderTraversal_94 {
     public List<Integer> preOrder(TreeNode_ root) {
         List<Integer> list = new LinkedList<Integer>();
         Stack<TreeNode_> stack = new Stack<>();
+
         if (root == null) {
             return list;
         }
+
         TreeNode_ current = root;
         while (current != null || !stack.empty()) {
             while (current != null) {
@@ -117,17 +119,18 @@ public class BTInorderTraversal_94 {
     }
 
 
-    public List<Integer> postorderTraversal(TreeNode_ root) {
+    public List<Integer> postorderTraversal(TreeNode_ root){
         List<Integer> list = new LinkedList<>();
         Stack<TreeNode_> stack = new Stack<>();
         TreeNode_ current = root;
         TreeNode_ lastNode = null;
+        TreeNode_ popNode = null;
         while (current != null || !stack.empty()) {
             while (current != null) {
                 stack.push(current);
                 current = current.left;
             }
-            TreeNode_ popNode = stack.pop();
+            popNode = stack.pop();
             if (popNode.right == null || popNode.right == lastNode) {
                 list.add(popNode.val);
                 lastNode = popNode;
