@@ -14,6 +14,12 @@ import java.util.List;
  * 1.本题不能使用暴力方法做，因为 输入SEE ，因为从 S 到 E 有两条路，其中一条是死路
  * 2.建立标志位可以使用marked【】【】，但是board数组只有字符，
  * 3.需要使用回溯
+ *
+ *
+ * 本题目 和 13 题都是 矩阵的遍历搜索问题。。
+ *
+ *
+ *
  */
 public class Sword12 {
     public static void main(String[] args) {
@@ -131,7 +137,9 @@ public class Sword12 {
 class answer {
 
     public boolean exist(char[][] board, String word) {
-        char[] words = word.toCharArray();
+
+        char[] words = word.toCharArray(); //字符串转化成字符数组
+
         for (int i = 0; i < board.length; i++) {
             for (int j = 0; j < board[0].length; j++) {
                 if (dfs(board, words, i, j, 0)) {
@@ -142,17 +150,19 @@ class answer {
         return false;
     }
 
-    boolean dfs(char[][] board, char[] word, int i, int j, int k) {
+    boolean dfs(char[][] board, char[] word, int i, int j, int k) { // k 是字符数组的index；i 是纵坐标，j是横坐标；
+
         if (i >= board.length || i < 0 || j >= board[0].length || j < 0 || board[i][j] != word[k]) {
             return false;
         }
         if (k == word.length - 1) {
             return true;
         }
-        char tmp = board[i][j];
-        board[i][j] = '/';          // 如果匹配字符串中有‘/’ 会出错，所以可以使用‘ ’代替
 
-        boolean res = dfs(board, word, i + 1, j, k + 1) || dfs(board, word, i - 1, j, k + 1) ||
+        char tmp = board[i][j];
+        board[i][j] = ' ';          // 如果匹配字符串中有‘/’ 会出错，所以可以使用‘ ’代替
+
+        boolean res = dfs(board, word, i + 1, j, k + 1) || dfs(board, word, i - 1, j, k + 1) ||  // 下||上||右||左
                 dfs(board, word, i, j + 1, k + 1) || dfs(board, word, i, j - 1, k + 1);
         board[i][j] = tmp;
         return res;
