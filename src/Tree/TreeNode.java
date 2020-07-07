@@ -1,4 +1,4 @@
-package Tree;
+package src.Tree;
 
 /**
  * 树的节点定义

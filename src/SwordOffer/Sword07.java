@@ -4,6 +4,29 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Sword07 {
+    // 回炉重组
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     public TreeNode buildTree(int[] preorder, int[] inorder) {
         if (preorder ==null||preorder.length==0){         // preorder 引用为空

@@ -1,4 +1,4 @@
-package Tree;
+package src.Tree;
 
 /**
  * 有序数组转化二叉搜索树（平衡的）

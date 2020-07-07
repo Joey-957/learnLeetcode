@@ -1,8 +1,8 @@
-package Tree;
+package src.Tree;
 
 import java.util.*;
 
-import List.*;
+
 
 /**
  * 测试类

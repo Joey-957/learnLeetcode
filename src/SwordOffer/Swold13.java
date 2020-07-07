@@ -29,4 +29,8 @@ public class Swold13 {
     public int movingCount(int m, int n, int k) {
         return 0;
     }
+
+    public static void main(String[] args) {
+
+    }
 }

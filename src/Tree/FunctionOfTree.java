@@ -1,4 +1,4 @@
-package Tree;
+package src.Tree;
 
 /**
  * 二叉排序树，的增删查方法接口
