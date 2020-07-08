@@ -2,61 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82f974e0-6663-4ab0-b016-99b255c2139f" name="Default Changelist" comment="&quot;7.4&quot;">
-      <change afterPath="$PROJECT_DIR$/src/SwordOffer/Swold53_II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SwordOffer/Swold54.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SwordOffer/Swold58.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SwordOffer/Swold58II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SwordOffer/Swold_57_II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/Sworld56_I_II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SwordOffer/Swold59_I.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learnLeecode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learnLeecode/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learnLeecode/List/SortedListToBST_109.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learnLeecode/SwordOffer/Sworld57.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learnLeecode/Tree/BTInorderTraversal_94.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learnLeecode/Tree/BinaryTreeLEvelSearch_102.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learnLeecode/Tree/BinaryTreeLevelSearchII_107.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learnLeecode/Tree/BinaryTreeZigzagLevelOrder_103.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learnLeecode/Tree/FunctionOfTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learnLeecode/Tree/FunctionOfTreeImpletion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learnLeecode/Tree/HasPathSum_112.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learnLeecode/Tree/InvertBinaryTree_226.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learnLeecode/Tree/MaxDepthOfBinaTree_104.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learnLeecode/Tree/MiniDepthOfBinary_111.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learnLeecode/Tree/PathSumIII_437.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learnLeecode/Tree/PathSumII_113.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learnLeecode/Tree/Sametree_100.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learnLeecode/Tree/SortedArraytoBinaSearTree_108.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learnLeecode/Tree/SymmetricTree_101.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learnLeecode/Tree/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learnLeecode/Tree/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learnLeecode/Tree/TreeNode_.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learnLeecode/src/SwordOffer/Swold13.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learnLeecode/src/SwordOffer/Swold13.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learnLeecode/src/SwordOffer/Sword07.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learnLeecode/src/SwordOffer/Sword07.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learnLeecode/src/SwordOffer/Sworld14.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learnLeecode/src/SwordOffer/Sworld14.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learnLeecode/src/SwordOffer/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learnLeecode/src/SwordOffer/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/List/SortedListToBST_109.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/List/SortedListToBST_109.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SwordOffer/Swold13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SwordOffer/Swold13.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SwordOffer/Sword07.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SwordOffer/Sword07.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SwordOffer/Sworld57.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SwordOffer/Sworld57.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SwordOffer/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/SwordOffer/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/BTInorderTraversal_94.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/BTInorderTraversal_94.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/BinaryTreeLEvelSearch_102.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/BinaryTreeLEvelSearch_102.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/BinaryTreeLevelSearchII_107.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/BinaryTreeLevelSearchII_107.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/BinaryTreeZigzagLevelOrder_103.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/BinaryTreeZigzagLevelOrder_103.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/FunctionOfTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/FunctionOfTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/FunctionOfTreeImpletion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/FunctionOfTreeImpletion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/HasPathSum_112.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/HasPathSum_112.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/InvertBinaryTree_226.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/InvertBinaryTree_226.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/MaxDepthOfBinaTree_104.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/MaxDepthOfBinaTree_104.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/MiniDepthOfBinary_111.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/MiniDepthOfBinary_111.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/PathSumIII_437.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/PathSumIII_437.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/PathSumII_113.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/PathSumII_113.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/Sametree_100.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Sametree_100.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/SortedArraytoBinaSearTree_108.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/SortedArraytoBinaSearTree_108.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/SymmetricTree_101.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/SymmetricTree_101.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/TreeNode_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/TreeNode_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sort/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sort/Sort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -85,27 +33,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/LinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1005">
-              <caret line="1048" column="27" selection-start-line="1048" selection-start-column="20" selection-end-line="1048" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/AbstractCollection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="133" column="20" selection-start-line="133" selection-start-column="20" selection-end-line="133" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Set.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2253">
+            <state relative-caret-position="3416">
               <caret line="145" column="13" selection-start-line="145" selection-start-column="13" selection-end-line="145" selection-end-column="13" />
             </state>
           </provider>
@@ -114,7 +44,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SwordOffer/Swold58.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
+            <state relative-caret-position="336">
               <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -123,11 +53,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SwordOffer/Swold58II.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
-              <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Sort/Sort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="67" column="40" lean-forward="true" selection-start-line="67" selection-start-column="40" selection-end-line="67" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SwordOffer/Swold59_I.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="61" column="49" lean-forward="true" selection-start-line="61" selection-start-column="49" selection-end-line="61" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -135,7 +86,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/StringBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1817">
+            <state relative-caret-position="1456">
               <caret line="75" column="19" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
             </state>
           </provider>
@@ -144,8 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/List.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="169" column="23" lean-forward="true" selection-start-line="169" selection-start-column="23" selection-end-line="169" selection-end-column="23" />
+            <state relative-caret-position="-594">
+              <caret line="169" column="13" selection-start-line="169" selection-start-column="13" selection-end-line="169" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -153,7 +104,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Collection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1273">
+            <state relative-caret-position="5068">
               <caret line="206" column="13" selection-start-line="206" selection-start-column="13" selection-end-line="206" selection-end-column="13" />
             </state>
           </provider>
@@ -176,7 +127,7 @@
                   <point x="0.0" y="53.5" />
                 </edge>
               </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="-455.0" y="-132.0" />
+              <settings layout="Hierarchic Group" zoom="0.7361963190184049" x="142.5" y="316.0" />
               <SelectedNodes>
                 <node>java.util.Collection</node>
               </SelectedNodes>
@@ -193,8 +144,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Iterable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="50" column="23" lean-forward="true" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
+            <state relative-caret-position="644">
+              <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -240,8 +191,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/SwordOffer/TreeNode.java" />
-        <option value="$PROJECT_DIR$/src/SwordOffer/Swold28.java" />
         <option value="$PROJECT_DIR$/src/SwordOffer/swold26.java" />
         <option value="$PROJECT_DIR$/src/SwordOffer/Swold27.java" />
         <option value="$PROJECT_DIR$/src/SwordOffer/sword53.java" />
@@ -291,6 +240,8 @@
         <option value="$PROJECT_DIR$/src/SwordOffer/Swold58.java" />
         <option value="$PROJECT_DIR$/src/SwordOffer/readme.md" />
         <option value="$PROJECT_DIR$/src/SwordOffer/Swold58II.java" />
+        <option value="$PROJECT_DIR$/src/Sort/Sort.java" />
+        <option value="$PROJECT_DIR$/src/SwordOffer/Swold59_I.java" />
       </list>
     </option>
   </component>
@@ -301,10 +252,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-2158" />
-    <option name="y" value="151" />
-    <option name="width" value="1934" />
-    <option name="height" value="1037" />
+    <option name="x" value="-1928" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -312,7 +263,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -329,12 +279,19 @@
               <item name="learnLeecode" type="b2602c69:ProjectViewProjectNode" />
               <item name="learnLeecode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Sort" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnLeecode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnLeecode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="SwordOffer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -497,6 +454,7 @@
       <workItem from="1593996292392" duration="13072000" />
       <workItem from="1594036486876" duration="8181000" />
       <workItem from="1594082141789" duration="14979000" />
+      <workItem from="1594175755868" duration="4813000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;7.4&quot;">
       <created>1593857245828</created>
@@ -509,13 +467,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="732325000" />
+    <option name="totallyTimeSpent" value="737138000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17537314" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17697228" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -611,20 +569,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/SwordOffer/Swold65.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SwordOffer/Swold40.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SwordOffer/Swold39.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -900,47 +844,11 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="78.5" y="107.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="79.0" y="107.0" />
           <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/java.util.Collection">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>java.util.Collection</OriginalElement>
-          <nodes>
-            <node x="0.0" y="157.0">java.util.Collection</node>
-            <node x="15.5" y="0.0">java.lang.Iterable</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="java.util.Collection" target="java.lang.Iterable">
-              <point x="0.0" y="-237.5" />
-              <point x="0.0" y="53.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-455.0" y="-132.0" />
-          <SelectedNodes>
-            <node>java.util.Collection</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Methods</Category>
-            <Category>Inner Classes</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Iterable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="50" column="23" lean-forward="true" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -964,34 +872,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1273">
-          <caret line="206" column="13" selection-start-line="206" selection-start-column="13" selection-end-line="206" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="169" column="23" lean-forward="true" selection-start-line="169" selection-start-column="23" selection-end-line="169" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Set.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2253">
-          <caret line="145" column="13" selection-start-line="145" selection-start-column="13" selection-end-line="145" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/AbstractCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="133" column="20" selection-start-line="133" selection-start-column="20" selection-end-line="133" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2969">
@@ -1000,20 +880,6 @@
             <element signature="e#117893#117894#0" expanded="true" />
             <element signature="e#117955#117956#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/StringBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1817">
-          <caret line="75" column="19" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1005">
-          <caret line="1048" column="27" selection-start-line="1048" selection-start-column="20" selection-end-line="1048" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -1027,9 +893,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27468">
+          <caret line="1048" column="27" selection-start-line="1048" selection-start-column="20" selection-end-line="1048" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/AbstractCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3024">
+          <caret line="133" column="20" selection-start-line="133" selection-start-column="20" selection-end-line="133" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Set.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3416">
+          <caret line="145" column="13" selection-start-line="145" selection-start-column="13" selection-end-line="145" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/SwordOffer/Swold58.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
+        <state relative-caret-position="336">
           <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1037,10 +924,84 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/StringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1456">
+          <caret line="75" column="19" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5068">
+          <caret line="206" column="13" selection-start-line="206" selection-start-column="13" selection-end-line="206" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.util.Collection">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.util.Collection</OriginalElement>
+          <nodes>
+            <node x="0.0" y="157.0">java.util.Collection</node>
+            <node x="15.5" y="0.0">java.lang.Iterable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="java.util.Collection" target="java.lang.Iterable">
+              <point x="0.0" y="-237.5" />
+              <point x="0.0" y="53.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.7361963190184049" x="142.5" y="316.0" />
+          <SelectedNodes>
+            <node>java.util.Collection</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Methods</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Iterable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/SwordOffer/Swold58II.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sort/Sort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="67" column="40" lean-forward="true" selection-start-line="67" selection-start-column="40" selection-end-line="67" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-594">
+          <caret line="169" column="13" selection-start-line="169" selection-start-column="13" selection-end-line="169" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SwordOffer/Swold59_I.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="61" column="49" lean-forward="true" selection-start-line="61" selection-start-column="49" selection-end-line="61" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
