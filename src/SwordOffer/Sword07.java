@@ -1,14 +1,34 @@
 package src.SwordOffer;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
+
 
 public class Sword07 {
-    // 回炉重组
+    // 回炉重做
+    private Map<Integer,Integer> map = new HashMap<>();
+    private int[] pre = null;
+    public  TreeNode buildTree3(int[] preorder,int[] inorder){
+        for (int i=0;i<inorder.length;i++){
+            map.put(inorder[i],i);
+        }
+        pre = preorder;
+        return  recursion(0,0,inorder.length-1);
 
+    }
+    public TreeNode recursion(int preorderIndex,int inorderLeftIndex,int inorderRightIndex){
+        if (inorderLeftIndex > inorderRightIndex){
+            return null;
+        }
+        TreeNode root = new TreeNode(pre[preorderIndex]);
+        int mid = map.get(pre[preorderIndex]); //得到被选作根节点的元素，在中序遍历序列中对应的index，便于下一步分割
+        root.left = recursion(preorderIndex+1,inorderLeftIndex,mid - 1);
+        root.right = recursion(preorderIndex + (mid-inorderLeftIndex) +1 ,mid+1,inorderRightIndex);
+        return root;
+    }
 
-
-
+    public static void main(String[] args) {
+        new Sword07().buildTree3(new int[]{3,9,20,15,7},new int[]{9,3,15,20,7});
+    }
 
 
 
@@ -32,7 +52,7 @@ public class Sword07 {
         if (preorder ==null||preorder.length==0){         // preorder 引用为空
             return null;
         }
-        Map<Integer,Integer> indexMap = new HashMap<Integer, Integer>();//存储数组中的值和下表的对应关系
+        Map<Integer,Integer> indexMap = new HashMap<>();//存储数组中的值和下表的对应关系
         int length = preorder.length;
         for (int i=0;i<length;i++){
             indexMap.put(inorder[i],i);
