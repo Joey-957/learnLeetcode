@@ -53,7 +53,7 @@ public class BTInorderTraversal_94 {
      */
     public List<Integer> inorder(TreeNode_ root) {
         Stack<TreeNode_> stack = new Stack<>();
-        List<Integer> listInorder = new LinkedList();
+        List<Integer> listInorder = new LinkedList<>();
         TreeNode_ current = root;
         while (current != null || !stack.empty()) {
             while (current != null) {
@@ -79,7 +79,7 @@ public class BTInorderTraversal_94 {
         }
 
         TreeNode_ current = root;
-        while (current != null || !stack.empty()) {
+        while (current != null || !stack.isEmpty()) {
             while (current != null) {
                 list.add(current.val);
                 stack.push(current);
