@@ -1,4 +1,4 @@
-package Huisu;
+package src.Huisu;
 
 import com.sun.org.apache.xpath.internal.operations.String;
 
@@ -7,10 +7,11 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * 全排列，使用回溯法暴力枚举求解
+ * 无重复全排列，使用回溯法暴力枚举求解
  * 参考知乎大神的帖子：https://zhuanlan.zhihu.com/p/93530380
  *
- * leetcode  全排列 无重复版
+ * leetcode  全排列 无重复版，leetcode 46
+ *
  */
 
 //第一种解法，没有使用标志数组
@@ -26,7 +27,7 @@ public class Pamutations {
     }
     public void recursion(int[] nums,LinkedList<Integer> list){
            if (list.size()==nums.length){
-               listAll.add(new LinkedList<>(list));         // 注意的点： 把list以此为元素内容，再建一个new LinkedList（List list）。
+               listAll.add(new LinkedList<>(list));  // 注意的点： 把list以此为元素内容，再建一个new LinkedList（List list）。
                return;
            }
            for(int i=0;i<nums.length;i++){

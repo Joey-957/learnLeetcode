@@ -75,7 +75,7 @@ class tryAgain1{
 
     public void sortRecursion(int[] array,int leftIndex,int rightIndex){
         if (leftIndex>=rightIndex){
-            return;                                             // 数组为空或者 只有一个元素时，进入递归立刻返回！！
+            return;                            // 数组为空或者 只有一个元素时，进入递归立刻返回！！
         }
         int mid = getPivot(array,leftIndex,rightIndex);
         sortRecursion(array,leftIndex,mid-1);

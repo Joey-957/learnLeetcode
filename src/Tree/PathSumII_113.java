@@ -36,7 +36,8 @@ public class PathSumII_113 {
         int sumEnd = sum - root.val;
         if (root.left == null && root.right == null) {
             if (sumEnd == 0) {
-                list.add((List<Integer>) queue.clone());
+                //list.add((List<Integer>) queue.clone());
+                list.add(new LinkedList<>(queue));
                 queue.pollLast();
                 return list;
             } else {
