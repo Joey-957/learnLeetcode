@@ -1,7 +1,7 @@
 package src.Sort;
 
 /**
- * 联系一下二分查找
+ * 练习一下二分查找
  */
 public class BinarySearch {
 

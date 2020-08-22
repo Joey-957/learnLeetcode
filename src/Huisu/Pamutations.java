@@ -35,7 +35,7 @@ public class Pamutations {
                    continue;
                }
                list.add(nums[i]);
-               recursion(nums, list);
+               recursion(nums,list);
                list.removeLast();
            }
     }
@@ -90,12 +90,15 @@ class Pamutation{
         }
     }
 
-//    public static void main(String[] args) {
+    public static void main(String[] args) {
+        System.out.println('a');
 //        int[] nums = {1, 1, 3};
 //        Pamutation solution = new Pamutation();
 //        List<List<Integer>> lists = solution.permute(nums);
 //        System.out.println(lists);
-//    }
+    }
+
+
 
 
 

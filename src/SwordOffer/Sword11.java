@@ -1,4 +1,13 @@
-package SwordOffer;
+package src.SwordOffer;
+
+import javax.xml.crypto.Data;
+import java.sql.Time;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.TimeZone;
+import java.util.concurrent.TimeUnit;
 
 /**
  * 把一个数组最开始的若干个元素搬到数组的末尾，我们称之为数组的旋转。输入一个递增排序的数组的一个旋转，
@@ -36,27 +45,30 @@ public class Sword11 {
         }
         return numbers[i];
     }
+/**
+ *  qiaoqi
+ */
+public int minArray2(int[] numbers) {
 
 
-//        int length = numbers.length;
-//        int indexMax = length-1;
-//        int index = indexMax/2;
-//        int indexMin = 0;
-//        if (indexMin==indexMax){
-//            return numbers[indexMin];
-//        }
-//        while(indexMin<=indexMax){
-//            if (index==indexMax){
-//                break;
-//            }
-//            if (numbers[index]<=numbers[index+1]){
-//                indexMin = index+1;
-//                index = (indexMax+indexMin)/2;
-//            }else {
-//                return numbers[index];
-//            }
-//        }
-//        return numbers[0];
+    if(numbers.length==1){
+        return numbers[0];
+    }
+    int left = 0;
+    int right = numbers.length -1;
+    int index = right;
+    while(left < right){
+        index = left + (right - left)/2;
+        if(numbers[right] < numbers[index]){
+            left = index + 1 ;
+        }else if(numbers[right] > numbers[index]){
+            right = index ;
+        }else{
+            --right;
+        }
+    }
+    return left;
+}
 
 
     /**
@@ -64,10 +76,37 @@ public class Sword11 {
      */
     public static void main(String[] args) {
 
-        System.out.println(new Sword11().select(new int[]{1,2,3,4,5,6,8},3));
-
+        System.out.println(new Sword11().binarySort(new int[]{1,2,3,4,5,6,8},-1));
+        System.out.println(new Sword11().minArray2(new int[]{3,3,3,1}));
     }
+    private int binarySort(int[] arr,int target){
+        int left =0;
+        int right = arr.length-1;
+        int middle = 0;
+        while(left <= right){
+            middle = left + (right - left)/2;
+            if (arr[middle] == target){
+                return middle;
+            }else if (arr[middle]> target){
+                right = middle -1;
+            }else if(arr[middle] < target){
+                left = middle +1;
+            }
+        }
+        return  -1;
+    }
+
+
+
+
+
+
     //使用二分查找法定位某个元素，若存在返回数组下标，不存在返回-1；
+
+    /**
+     *
+     *  太麻烦
+     */
     public int select(int[]numbers,int target){
         int index = -1;
         int minIndex = 0;
